@@ -1,0 +1,273 @@
+    /* .mail-container { */
+        /* margin-left: 260px; */
+        /* margin-top: 80px; */
+        /* background: #fff; */
+        /* padding: 20px; */
+        /* min-height: calc(100vh - 80px); */
+        /* border-radius: 5px; */
+        /* font-family: Arial, sans-serif; */
+    /* } */
+    /* .mail-subject { */
+        /* font-size: 20px; */
+        /* font-weight: bold; */
+        /* margin-bottom: 10px; */
+    /* } */
+    /* .mail-info { */
+        /* font-size: 14px; */
+        /* color: #666; */
+        /* margin-bottom: 20px; */
+    /* } */
+    /* .mail-content { */
+        /* font-size: 15px; */
+        /* color: #333; */
+        /* line-height: 1.5; */
+        /* white-space: pre-wrap; /* keeps line breaks */ */
+    /* } */
+    /* .back-btn { */
+        /* text-decoration: none; */
+        /* color: #4285f4; */
+        /* font-size: 14px; */
+    /* } */
+    /* .back-btn:hover { text-decoration: underline; } */
+	
+	/* .content {  */
+		/* flex: 1; */
+		/* padding: 20px 40px; */
+		background-color: #f9f9f9;
+		min-height: 100vh;
+		margin-top: -20px;
+		margin-top: -20px;
+		/* width: 100%; */
+		/* height: 100%; */
+		/* margin-top: -20px; */
+		/* margin-left: -40px;  */
+		
+	/* } */
+
+        /* .message-box { */
+            /* background-color: #fff; */
+			border-radius: 8px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+			/* padding: 30px; */
+			/* width: 100%; */
+			/* height: 100%; */
+        /* } */
+
+        /* .message-header h2 { */
+            /* margin: 0; */
+            /* color: #333; */
+        /* } */
+
+        /* .meta-info { */
+            /* font-size: 14px; */
+            /* color: #777; */
+            /* margin-top: 5px; */
+            /* margin-bottom: 20px; */
+        /* } */
+
+        /* .message-body { */
+            /* font-size: 16px; */
+            /* color: #444; */
+            /* line-height: 1.6; */
+            /* white-space: pre-line; */
+            /* border-top: 1px solid #eee; */
+			/* max-width: max-content; */
+			/* max-height: max-content; */
+        /* } */
+
+        /* .back-btn { */
+            /* display: inline-block; */
+			/* text-decoration: underline; */
+			/* transition: background-color 0.2s ease; */
+			/* margin-bottom: 20px; */
+        /* } */
+
+        /* .back-btn:hover { */
+            /* background-color: #0056b3; */
+        /* } */
+		
+		/* #reply-btn{ */
+			/* margin-top: 7%; */
+			/* width: 100px; */
+			/* height: 25px; */
+			/* border-radius: 20px; */
+			/* background-color: floralwhite; */
+		/* } */
+		
+	/* #reply{ */
+		/* width: 100%; */
+		/* height: 20%; */
+	/* } */
+	/* #message-content{ */
+		
+	/* } */
+	
+/* .message-box { */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* height: 80vh;   /* take most of screen */ */
+  /* border: 1px solid #ccc; */
+  /* border-radius: 10px; */
+  /* padding: 15px; */
+  /* background: #fff; */
+/* } */
+
+
+/* #message-content { */
+  /* flex: 1;   */
+  /* overflow-y: auto;   */
+  /* margin-bottom: 15px; */
+  /* padding-right: 10px; */
+/* } */
+
+
+/* .message-body { */
+  /* white-space: pre-wrap;  */
+  /* word-wrap: break-word; */
+  /* line-height: 1.5; */
+/* } */
+
+
+/* #reply-btn { */
+  /* align-self: flex-end; */
+  /* margin-top: auto;  */
+  /* padding: 8px 16px; */
+  /* border: none; */
+  /* background: #007bff; */
+  /* color: #fff; */
+  /* border-radius: 6px; */
+  /* cursor: pointer; */
+/* } */
+
+/* #reply-btn:hover { */
+  /* background: #0056b3; */
+/* } */
+/* Main mail container */
+.mail-container {
+    margin-left: 260px;
+    margin-top: 80px;
+    background: #fff;
+    padding: 20px;
+    min-height: calc(100vh - 80px);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Subject & info */
+.mail-subject {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.mail-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Content formatting */
+.mail-content {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+    white-space: pre-wrap; /* keeps line breaks */
+}
+
+/* Back button */
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #4285f4;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: color 0.2s ease;
+}
+.back-btn:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Main content wrapper */
+.content { 
+    flex: 1;
+    padding: 20px 40px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Message view container */
+.message-box {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;   /* takes most of the screen */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Message header */
+.message-header h2 {
+    margin: 0;
+    color: #333;
+}
+.meta-info {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Scrollable content */
+#message-content {
+    flex: 1;  /* take available space */
+    overflow-y: auto;  /* scroll if too long */
+    margin-bottom: 15px;
+    padding-right: 10px; /* space for scrollbar */
+}
+
+/* Message body */
+.message-body {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+/* Reply button pinned at bottom */
+#reply-btn {
+    align-self: flex-end;
+    margin-top: auto;  /* pushes to bottom */
+    padding: 8px 16px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#reply-btn:hover {
+    background: #0056b3;
+}
+
+/* Reply box */
+#reply {
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+}
+.content {
+    flex: 1;
+    padding: 4px 3px;
+    width: 100%;
+    height: 100%;
+}
+.imc1 {
+	padding:2px;
+}
+#previousMessage{
+    overflow: scroll;
+    height: 90px;
+}

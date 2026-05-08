@@ -1,0 +1,92 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f1f3f4;
+      color: #202124;
+      margin: 0;
+      
+    }
+    .compose-container {
+         
+    background: white;
+    padding: 30px 40px;
+  
+    height: 100%;
+}
+    }
+    .compose-container h2 {
+      color: #d93025;
+      margin-bottom: 20px;
+    }
+   .compose-container label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #202124;
+    }
+    .compose-container input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 15px;
+      resize: vertical;
+    }
+   .compose-container textarea {
+      height: 150px;
+    }
+   .compose-container .btn-group {
+      display: flex;
+      gap: 15px;
+    }
+  .compose-container  button {
+      background-color: #d93025;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      user-select: none;
+    }
+   .compose-container button:hover {
+      background-color: #b42a1e;
+    }
+  .compose-container  button.cancel {
+      background-color: #f1f3f4;
+      color: #5f6368;
+    }
+   .compose-container button.cancel:hover {
+      background-color: #ddd;
+    }
+	.compose-container  button#draft-btn {
+      background-color: #1fc7e5;
+    }
+	.compose-container button#draft-btn:hover {
+      background-color: #115fcc;
+    }
+	#emailSuggestions{
+		border: 1px solid #ccc;
+		max-height: 150px;
+		overflow-y: auto;
+		position: absolute;
+		background-color: white;
+		margin-top: -22px;
+		width: 40%;
+		margin-left: 1%;
+		display: none;
+		overflow: hidden;
+	}
+	#list{
+		padding: 5px; 
+		cursor: pointer; 
+		margin-left: 10px; 
+		width: 96%; 
+		border-bottom: groove;
+	}
+	#list:hover{
+		background: aliceblue;
+	}
